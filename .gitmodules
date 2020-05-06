@@ -1,0 +1,3 @@
+[submodule "flask-graphql"]
+	path = flask-graphql
+	url = git@github.com:manojvenkat/flask-graphql.git
