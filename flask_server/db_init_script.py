@@ -1,4 +1,4 @@
-from application.models import TrackingRecord
+from flask_server.application.models import TrackingRecord
 from datetime import datetime
 
 

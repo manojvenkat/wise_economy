@@ -5,7 +5,8 @@ from graphene import relay
 from graphene_sqlalchemy import SQLAlchemyObjectType
 from sqlalchemy import text, func
 
-from application.models import TrackingRecord, name_to_column_dict
+from flask_server.application.models import TrackingRecord
+from flask_server.application.models import name_to_column_dict
 
 
 class TrackingRecordObject(SQLAlchemyObjectType):

@@ -1,4 +1,5 @@
-from application import db
+from flask_server.application import db
+
 
 class TrackingRecord(db.Model):
     __tablename__ = 'tracking_records'

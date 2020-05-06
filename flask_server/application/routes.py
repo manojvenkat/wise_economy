@@ -2,7 +2,7 @@ from flask import current_app as app
 from flask_graphql import GraphQLView
 import graphene
 
-from application.query import Query
+from flask_server.application.query import Query
 schema = graphene.Schema(query=Query)
 
 
